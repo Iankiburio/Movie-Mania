@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Mania</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel = "stylesheet" href = "main.css">
+</head>
+<body>
+    
+    <div class = "wrapper">
+        <div class = "logo">
+            <div class = "container">
+                <p>Movie Mania</p>
+            </div>
+        </div>
+        <div class ="info">
+            <p>Find all the information on your favourite movies</p>
+        </div>
+        <div class = "search-container">
+            <div class = "search-element">
+                <input type = "text" class = "form-control" placeholder="Movie Title          🔍" id = "movie-search-box" onkeyup="findMovies()" onclick = "findMovies()">
+                <div class = "search-list" id = "search-list">
+                </div>
+            </div>
+        </div>
+        <div class = "container">
+            <div class = "result-container">
+                <div class = "result-grid" id = "result-grid">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src = "script.js"></script>
+</body>
+<div class="ending">
+    <address>
+    Contact me at:<a href="mailto:ian.kiburio@student.moringaschool.com">ian.kiburio@student.moringaschool.com</a>.<br>
+    Source:<a href="https://www.omdbapi.com/">OMDb API</a>
+    </address>
+</div>
+</html>
